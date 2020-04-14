@@ -1,8 +1,6 @@
 # covid19
-Clone the repo
-git clone https://github.com/bryanforbes/intern-angular
-cd intern-angular
-Install npm packages
+
+# Install npm packages
 Install the npm packages described in the package.json and verify that it works:
 
 npm install
@@ -11,7 +9,7 @@ The npm start command builds (compiles TypeScript and copies assets) the applica
 
 Shut it down manually with Ctrl-C.
 
-npm scripts
+# npm scripts
 These are the most useful commands defined in package.json:
 
 npm start - runs the TypeScript compiler, asset copier, and a server at the same time, all three in "watch mode".
@@ -23,5 +21,5 @@ These are the test-related scripts:
 
 npm test - builds the application and runs Intern tests (both unit and functional) one time.
 npm run ci - cleans, lints, and builds the application and runs Intern tests (both unit and functional) one time.
-Techniques
+# Techniques
 Because Intern seamlessly handles asynchronous testing, there is no reason to use async, fakeAsync, or tick from @angular/core/testing. Furthermore, because TypeScript introduced downlevel asynchronous function support in version 2.1, the use of async and await has been leveraged to write these tests.
