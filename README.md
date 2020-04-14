@@ -21,5 +21,3 @@ These are the test-related scripts:
 
 npm test - builds the application and runs Intern tests (both unit and functional) one time.
 npm run ci - cleans, lints, and builds the application and runs Intern tests (both unit and functional) one time.
-# Techniques
-Because Intern seamlessly handles asynchronous testing, there is no reason to use async, fakeAsync, or tick from @angular/core/testing. Furthermore, because TypeScript introduced downlevel asynchronous function support in version 2.1, the use of async and await has been leveraged to write these tests.
